@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Responsive contact us page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=PoPPins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Poppins', sans-serif;
+}
+.contact{
+position: relative;
+min-height: 100vh;
+padding: 50px 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+}
+.contact .content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact .content h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contact .content p {
+  font-weight: 300;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.container .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.container .contactInfo .box{
+  position:relative;
+  padding:20px 0;
+  display:flex;
+}
+.container .contactInfo .box .icon{
+  min-width: 60px;
+  height:60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.container .contactInfo .box .text{
+  display: flex;
+  margin-Left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+.container.contactInfo.box.text h3{
+
+  color: #00bcd4;
+  font-weight: 500;
+}
+.contactForm{
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+}
+.contactForm h2{
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+.contactForm .inputBox{
+  position:relative;
+  margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom:2px solid #333;
+  outline:none;
+  resize:none;
+
+}
+.contactForm .inputBox span{
+  position:absolute;
+  Left:0;
+  padding: 5px 0;
+ font-size:16px;
+ margin: 10px 0;
+ pointer-events:none;
+ transition:0.5s;
+ color:#666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+
+{
+  color: #91e63;
+  font-size: 12px;
+  transform:translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]{
+  width: 100px;
+  background: #198728;
+  color: #fff;
+  border:none;
+  cursor:pointer;
+  padding:10px;
+  font-size:18px;
+}
+@media(max-width:991px){
+  .contact{
+    padding:50px;
+  }
+  .container{
+    flex-direction:column;
+  }
+  .container .contactInfo{
+    margin-bottom: 40px;
+  }
+  .container .contactInfo{
+    width:100%;
+  }}
+
+*{
+padding:0;
+margin:0;
+text-decoration:none;
+list-style:none;}
+.header{
+  width: 100%;
+  background-color: rgba(0,0,0,.2);
+
+}
+.header ul{
+  line-height:80px;
+  text-align:right;
+  margin-right: 80px;
+}
+
+  .header ul li{
+
+  list-style:none;
+  display:inline-block;
+
+}
+.header ul li a{
+  display:block;
+  text-decoration:none;
+  text-transform:uppercase;
+  color:#fff;
+  font-size: 20px;
+  font-family: 'Raleway' ,sans-serif;
+  margin-right: 10px;
+  font-weight:500;
+  paddding:25px;
+}
+.header ul li a:hover{
+  background-color: #211b4385;
+}
+body{
+  background: url(https://i.ytimg.com/vi/JC9SfFZpFMU/maxresdefault.jpg);
+  background-size: cover;
+  height:100vh;
+
+}
+</style>
+</head>
+<body>
+<div class="header">
+<ul>
+ <li><a class="active" href="index.html" class=""</a>Home</a></li>
+ <li><a href="Aboutus.html">About</a></li>
+ <li><a href="contact.html" class="">Contact</a></li>
+</ul>
+</div>
+<section class="contact">
+      <div class="content">
+        <h2>CONTACT US</h2></br>
+        <p>Donate to provide food, shelter, clothing, education. Donate to sponsor a child today.
+          Ways to Help Street children charity for providing Indian street, homeless and orphan children with free medical treatment, nutrition, clothing, shelter, training and education</p>
+        </div>
+        <div class="container">
+          <div class="contactInfo">
+            <div class="box">
+              <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>Nalgonda,<br>Hyderabad,<br>58200</p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3>phone</h3>
+                <p>6305664753</p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3>Email</h3>
+                <p>karnatimanasa2312@gmail.com</p>
+             </div>
+             </div>
+           </div>
+           <div class="contactForm">
+             <form>
+               <h2>Send Message</h2>
+               <div class="inputBox">
+                 <input type="text name="" required="required">
+                 <span>Full Name</span>
+               </div>
+               <div class="inputBox">
+                 <input type="text name="" required="required">
+                 <span>Email</span>
+               </div>
+               <div class="inputBox">
+                 <textarea required=" required"></textarea>
+                 <span>Type Your Message...</span>
+               </div>
+               <div class="inputBox">
+                 <input type="Submit" name="" value="send">
+               </div>
+               </form>
+             </div>
+          </div>
+      </section>
+  </body>
+</html>
